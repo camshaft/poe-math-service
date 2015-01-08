@@ -1,0 +1,16 @@
+{
+  "name": "poe-math-service",
+  "version": "0.1.0",
+  "description": "simple math service",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/startup start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "poe-service-node": "git://github.com/poegroup/poe-service-node",
+    "startup": "^1.0.3"
+  }
+}
